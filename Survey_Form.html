@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form_style.css">
+    <h1 id="title">Background Survey Form</h1>
+</head>
+
+<body>
+    <p>Share Your Background!</p>
+<form action="text" id="survey-form">
+
+<label for="name" id="name-label">Name:</label>
+    <input id="name" type="text" name="name" placeholder="Spike Spiegel" required><br>
+    
+<label for="email" id="email-label">Email:</label>
+    <input id="email" type="email" name="email" placeholder="spike.sp@cowboy.com" required><br>
+
+<label for="number" id="number-label">Age:</label>
+    <input id="number" type="number" name="number" placeholder="27" min="13" max="100" required><br>
+
+<label for="dropdown" id="background">Career Field:</label>
+    <select id="dropdown">
+        <option value="Software">Software Engineering/Development</option>
+        <option value="STEM">Non-Software STEM</option>
+        <option value="Communicaitons">Communications</option>
+        <option value="Education">Education</option>
+        <option value="Arts">Arts</option>
+        <option value="Other">Other</option>
+</select>
+<br>
+<br>
+
+<label for="pronouns" id="pronouns">Preferred Pronouns:</label><br>
+    <input id="pronouns" type="radio" id="she/her" name="pronouns" value="she/her">
+        <label for="pronouns">She/Her/Hers</label><br>
+    <input id="pronouns" type="radio" id="he/him" name="pronouns" value="he/him">
+        <label for="pronouns">He/Him/His</label><br>
+    <input id="pronouns" type="radio" id="they/them" name="pronouns" value="they/them">
+        <label for="pronouns">They/Them/Theirs</label><br>
+    <input id="pronouns" type="radio" id="other" name="pronouns" value="other">
+        <label for="pronouns">Other</label>
+    <br>
+    <br>
+
+
+<label for="hobby" id="hobby">Favorite Hobbies (Check all that apply):</label><br>
+    <input id="hobby" type="checkbox" name="sports" value="sports">
+        <label for="hobby">Sports</label><br>
+    <input id="hobby" type="checkbox" name="arts" value="arts">
+        <label for="hobby">Arts & Crafts</label><br>
+    <input id="hobby" type="checkbox" name="cooking" value="cooking">
+        <label for="hobby">Cooking</label><br>
+    <input id="hobby" type="checkbox" name="tv" value="tv">
+        <label for="hobby">Watching TV</label><br>
+    <input id="hobby" type="checkbox" name="reading" value="reading">
+        <label for="hobby">Reading Books</label><br>
+    <br>
+
+<label id="comments">Additional Comments</label><br>
+<textarea id="comments" name="comments" rows="5" cols="35">
+</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+
+</form>
+</body>
+</html>
