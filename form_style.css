@@ -1,3 +1,27 @@
+#title{
+text-align: center;
+}
+
+h2 {
+    text-align: center;
+    line-height: 5px;
+    color: rgb(167, 145, 185);
+}
 body {
-    background-color: rgb(237, 177, 255);
+    background-color: rgb(249, 205, 255);
+    font-family: 'Roboto';
+    line-height: 30px;
+    width: 500px;
+    margin: auto;
+    color: rgb(31, 0, 31);
+}
+
+#survey-form {
+    background-color: rgba(160, 249, 255, 0.37);
+    padding: 25px;
+    border-radius: 3%;
+}
+
+#submit {
+    cursor: pointer;
 }
